@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: inline-block;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    height: 480px;
+    overflow: hidden;
+}
+
+picture img {
+    height: 100%;
+}
+
+section {
+    float: right;
+    padding: 35px;
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.8rem;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Fraunces';
+    color: hsl(212, 21%, 14%);
+    font-size: 2rem;
+}
+
+.description {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.9rem;
+    line-height: 1.6em;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.new-price {
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+}
+
+.old-price {
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: line-through;
+}
+
+button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    padding: 1rem 0;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+
+button:before {
+    content: '';
+    background: url('../img/icon-cart.svg');
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        width: 90%;
+        height: auto;
+    }
+
+    picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        float: none;
+        gap: 1rem;
+        width: 100%;
+        padding: 1.5rem;
+        max-width: none;
+        box-sizing: border-box;
+    }
+}

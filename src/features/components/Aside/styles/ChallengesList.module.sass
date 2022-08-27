@@ -1,0 +1,33 @@
+.container
+    list-style: none
+    padding: 10px 0
+    font-family: 'Heebo', sans-serif
+    font-size: 0.9rem
+    font-weight: 400
+
+    li
+        position: relative
+        display: inline-flex
+        align-items: center
+        padding: 3px 0
+        cursor: pointer
+
+        &::after
+            content: ''
+            position: absolute
+            left: 0px
+            bottom: 3px
+            width: 100%
+            height: 2px
+            background-color: rgb(237, 44, 73)
+            transform: scaleX(var(--scale, 0))
+            transition: transform 0.5s ease
+
+        &:hover::after
+            transform: scaleX(1)
+
+    p
+        text-align: center
+        text-transform: uppercase
+        font-size: 1rem
+        font-weight: 700

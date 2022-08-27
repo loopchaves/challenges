@@ -1,0 +1,39 @@
+.container
+    display: flex
+    justify-content: center
+    gap: 20px
+    margin: 20px 0
+    text-transform: uppercase
+
+    a
+        min-width: 20%
+        text-decoration: none
+        padding: 10px 20px
+        border-radius: 50px
+        font-weight: 700
+        transition: transform 0.5s ease
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 8px
+
+        &:hover
+            transform: scale(1.1)
+
+    .site
+        background-color: rgb(237, 44, 73)
+        color: rgb(255, 255, 255)
+
+    .code
+        color: rgb(28, 32, 34)
+        border: 1px solid rgb(28, 32, 34)
+
+@media screen and (max-width: 480px)
+    .container
+        a
+            font-size: 0.8rem
+    
+@media screen and (max-width: 320px)
+    .container
+        a
+            font-size: 0.6rem

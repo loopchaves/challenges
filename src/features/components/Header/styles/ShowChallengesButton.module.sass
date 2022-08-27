@@ -1,0 +1,22 @@
+.container
+    font-family: 'Barlow', sans-serif
+    background-color: transparent
+    border: none
+    font-size: 0.8rem
+    font-style: italic
+    width: 80px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    cursor: pointer
+
+    &::after
+        content: ''
+        display: inline-block
+        background: url('../../../../img/icon-arrow.svg') no-repeat
+        transform: rotate(var(--rotation, -90deg))
+        background-position: center
+        background-size: contain
+        width: 12px
+        height: 12px
+        transition: transform 0.5s ease

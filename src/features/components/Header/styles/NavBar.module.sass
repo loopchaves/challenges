@@ -1,0 +1,26 @@
+.container
+    display: flex
+    gap: 1.5rem
+
+    a
+        font-family: 'Barlow', sans-serif
+        color: rgb(28, 32, 34)
+        text-decoration: none
+        font-size: 1.5rem
+        font-style: italic
+        position: relative
+        display: flex
+        align-items: center
+
+        &::after
+            content: ''
+            position: absolute
+            bottom: 0
+            width: 100%
+            height: 2px
+            background-color: rgb(237, 44, 73)
+            transform: scaleX(var(--scale, 0))
+            transition: transform 0.5s ease
+
+        &:hover::after
+            transform: scaleX(1)

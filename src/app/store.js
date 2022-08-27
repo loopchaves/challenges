@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import challengesReducer from './challengeSlice';
+import asideReducer from './asideSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
-  },
+    challenge: challengesReducer,
+    aside: asideReducer
+  }
 });

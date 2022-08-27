@@ -1,0 +1,144 @@
+[
+	{
+		"level": "newbie",
+		"name": "qr-code-component",
+		"title": "QR code component",
+		"fem": "qr-code-component-using-simple-html5-and-css-SIC1YEgoYL",
+		"build": [
+			"Semantic HTML5 markup",
+			"CSS custom properties",
+			"Flexbox",
+			"Mobile-first workflow"
+		],
+		"screenshots": [
+			"qr-code-component.png"
+		]
+	},
+	{
+		"level": "newbie",
+		"name": "product-preview-card-component",
+		"title": "Product preview card component",
+		"fem": "product-preview-card-using-simple-html5-and-css-gmPouDOaZc",
+		"build": [
+			"Semantic HTML5 markup",
+			"CSS custom properties",
+			"Flexbox",
+			"Mobile-first workflow"
+		],
+		"screenshots": [
+			"product-preview-card-component-mobile.png",
+			"product-preview-card-component-desktop.png"
+		]
+	},
+	{
+		"level": "newbie",
+		"name": "3-column-preview-card-component",
+		"title": "3 column preview card component",
+		"fem": "3column-preview-card-component-using-sinple-html5-and-css-iHI2okOt26",
+		"build": [
+			"Semantic HTML5 markup",
+			"CSS custom properties",
+			"Flexbox"
+		],
+		"screenshots": [
+			"3-column-preview-card-component-mobile.png",
+			"3-column-preview-card-component-desktop.png"
+		]
+	},
+	{
+		"level": "newbie",
+		"name": "profile-card-component",
+		"title": "Profile card component",
+		"fem": "profile-card-component-using-semantic-html5-and-css-U23lP1DCeB",
+		"build": [
+			"Semantic HTML5 markup",
+			"CSS custom properties",
+			"Flexbox"
+		],
+		"screenshots": [
+			"profile-card-component-mobile.png",
+			"profile-card-component-desktop.png"
+		]
+	},
+	{
+		"level": "newbie",
+		"name": "interactive-rating-component",
+		"title": "Interactive rating component",
+		"fem": "interactive-rating-component-using-semantic-html5-css-and-js-8dr73L7MAj",
+		"build": [
+			"Semantic HTML5 markup",
+			"CSS custom properties",
+			"Flexbox",
+			"JavaScript"
+		],
+		"screenshots": [
+			"interactive-rating-component0.png",
+			"interactive-rating-component1.png",
+			"interactive-rating-component2.png"
+		]
+	},
+	{
+		"level": "newbie",
+		"name": "nft-preview-card-component",
+		"title": "NFT preview card component",
+		"fem": "nft-preview-card-component-using-semantic-html5-and-css-pkFP1TdQQ-",
+		"build": [
+			"Semantic HTML5 markup",
+			"CSS custom properties",
+			"Flexbox"
+		],
+		"screenshots": [
+			"nft-preview-card-component0.png",
+			"nft-preview-card-component1.png"
+		]
+	},
+	{
+		"level": "newbie",
+		"name": "faq-accordion-card-without-javascript",
+		"title": "FAQ accordion card without JavaScript",
+		"fem": "faq-accordion-card-without-using-javascript-jw9X8VyE2J",
+		"build": [
+			"Semantic HTML5 markup",
+			"CSS custom properties",
+			"Flexbox"
+		],
+		"screenshots": [
+			"faq-accordion-card-mobile.png",
+			"faq-accordion-card-desktop.png"
+		]
+	},
+	{
+		"level": "newbie",
+		"name": "faq-accordion-card-with-javascript",
+		"title": "FAQ accordion card with JavaScript",
+		"fem": "faq-accordion-card-without-using-javascript-jw9X8VyE2J",
+		"build": [
+			"Semantic HTML5 markup",
+			"CSS custom properties",
+			"Flexbox",
+			"JavaScript"
+		],
+		"screenshots": [
+			"faq-accordion-card-mobile.png",
+			"faq-accordion-card-desktop.png"
+		]
+	},
+	{
+		"level": "newbie",
+		"name": "intro-component-with-signup-form",
+		"title": "Intro component with sign up form",
+		"fem": "intro-component-with-sign-up-form-using-aria-atributes-and-javascrip-qaUpEmr0dp",
+		"build": [
+			"Semantic HTML5 markup",
+			"CSS custom properties",
+			"Flexbox",
+			"Mobile-first workflow",
+			"JavaScript"
+		],
+		"screenshots": [
+			"intro-component-with-sign-up-form-mobile0.png",
+			"intro-component-with-sign-up-form-mobile1.png",
+			"intro-component-with-sign-up-form-desktop.png"
+		]
+	}
+]

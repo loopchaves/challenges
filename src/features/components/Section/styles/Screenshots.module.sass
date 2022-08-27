@@ -1,0 +1,32 @@
+.container
+    // margin-bottom: 2rem
+
+    h2
+        background-color: rgb(240, 240, 240)
+        text-align: center
+        font-size: 1rem
+        font-weight: 700
+        padding: 10px
+        border-radius: 10px
+
+    .screenshots
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-wrap: wrap
+
+        img
+            margin: 10px
+            max-height: 300px
+
+@media screen and (max-width: 1024px)
+    .container
+        .screenshots
+            img
+                max-width: 400px
+
+@media screen and (max-width: 480px)
+    .container
+        .screenshots
+            img
+                max-width: 100%
