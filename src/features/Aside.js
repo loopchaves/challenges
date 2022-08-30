@@ -1,9 +1,9 @@
-import { useEffect, useCallback } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useMediaQuery } from 'react-responsive';
 import { change } from '../app/challengeSlice';
 import { toggleShow } from '../app/asideSlice';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 
 import ChallengesList from './components/Aside/ChallengesList';
 import LevelTag from './components/Aside/LevelTag';
@@ -14,10 +14,10 @@ export default function Aside() {
   const show = useSelector(state => state.aside.show);
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   const dispatch = useDispatch();
-  const location = useLocation();
-  const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const param = searchParams.get('challenge');
 
-  const selectChallenge = useCallback((challenge) => {
+  function selectChallenge(challenge) {
     const links = document.querySelectorAll('li');
     links.forEach(link => {
       (challenge.title === link.getAttribute('title'))
@@ -25,21 +25,19 @@ export default function Aside() {
         : link.style.setProperty('--scale', 0);
     });
     dispatch(change(challenge));
-  }, [dispatch]);
+  }
 
   useEffect(() => {
-    const param = new URLSearchParams(location.search);
-    let challenge;
-    if (param.has('challenge')) {
-      const name = param.get('challenge');
-      challenge = challenges.find(obj => obj.name === name);
+    if (param) {
+      const challenge = challenges.find(obj => obj.name === param);
+      selectChallenge(challenge);
+      searchParams.delete('challenge');
+      setSearchParams(searchParams);
     } else {
-      challenge = challenges[0];
+      selectChallenge(challenges[0]);
     }
-    console.log(challenge);
-    selectChallenge(challenge);
-    return () => navigate('/challenges');
-  }, [selectChallenge, location, navigate]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     if (isMobile) {

@@ -22,9 +22,9 @@ Users should be able to:
 
 ### Screenshot
 
-<img src='../../src/img/screenshots/nft-preview-card-component0.png' width='200'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/nft-preview-card-component0.png' width='200'>
 
-<img src='../../src/img/screenshots/nft-preview-card-component1.png' width='200'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/nft-preview-card-component1.png' width='200'>
 
 ### Links
 
