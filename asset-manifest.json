@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/challenges/static/css/main.0b10759a.css",
-    "main.js": "/challenges/static/js/main.83834511.js",
+    "main.js": "/challenges/static/js/main.ff9a1786.js",
     "static/media/product-preview-card-component-mobile.png": "/challenges/static/media/product-preview-card-component-mobile.1e0de198759c56ef2d59.png",
     "static/media/product-preview-card-component-desktop.png": "/challenges/static/media/product-preview-card-component-desktop.5cd725d319902bca54d9.png",
     "static/media/profile-card-component-mobile.png": "/challenges/static/media/profile-card-component-mobile.e4f0730a68e93843d641.png",
@@ -22,10 +22,10 @@
     "index.html": "/challenges/index.html",
     "static/media/icon-arrow.svg": "/challenges/static/media/icon-arrow.852fa301a0e795e07c59.svg",
     "main.0b10759a.css.map": "/challenges/static/css/main.0b10759a.css.map",
-    "main.83834511.js.map": "/challenges/static/js/main.83834511.js.map"
+    "main.ff9a1786.js.map": "/challenges/static/js/main.ff9a1786.js.map"
   },
   "entrypoints": [
     "static/css/main.0b10759a.css",
-    "static/js/main.83834511.js"
+    "static/js/main.ff9a1786.js"
   ]
 }

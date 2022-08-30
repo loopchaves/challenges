@@ -24,11 +24,11 @@ Users should be able to:
 
 - Mobile (max-width: 375px)
 
-<img src='../../src/img/screenshots/3-column-preview-card-component-mobile.png' width='200'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/3-column-preview-card-component-mobile.png' width='200'>
 
 - Desktop
 
-<img src='../../src/img/screenshots/3-column-preview-card-component-desktop.png' width='500'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/3-column-preview-card-component-desktop.png' width='500'>
 
 ### Links
 

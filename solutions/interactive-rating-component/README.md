@@ -24,11 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-<img src='../../src/img/screenshots/interactive-rating-component0.png' width='200'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/interactive-rating-component0.png' width='200'>
 
-<img src='../../src/img/screenshots/interactive-rating-component1.png' width='200'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/interactive-rating-component1.png' width='200'>
 
-<img src='../../src/img/screenshots/interactive-rating-component2.png' width='200'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/interactive-rating-component2.png' width='200'>
 
 ### Links
 

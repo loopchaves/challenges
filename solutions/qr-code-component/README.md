@@ -14,7 +14,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<img src='../../src/img/screenshots/qr-code-component.png' width='200'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/qr-code-component.png' width='200'>
 
 ### Links
 
