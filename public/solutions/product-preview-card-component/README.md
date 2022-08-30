@@ -24,15 +24,15 @@ Users should be able to:
 
 - Mobile (max-width: 375px)
 
-<img src='../../img/screenshots/product-preview-card-component-mobile.png' width='200'>
+<img src='../../src/img/screenshots/product-preview-card-component-mobile.png' width='200'>
 
 - Desktop
 
-<img src='../../img/screenshots/product-preview-card-component-desktop.png' width='500'>
+<img src='../../src/img/screenshots/product-preview-card-component-desktop.png' width='500'>
 
 ### Links
 
-- Solution URL: [Product preview card component](https://loopchaves.github.io/frontend-mentor/challenges/product-preview-card-component)
+- Solution URL: [Product preview card component](https://loopchaves.github.io/challenges/solutions/product-preview-card-component)
 
 ## Built with
 

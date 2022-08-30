@@ -14,11 +14,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<img src='../../img/screenshots/qr-code-component.png' width='200'>
+<img src='../../src/img/screenshots/qr-code-component.png' width='200'>
 
 ### Links
 
-- Solution URL: [QR code component](https://loopchaves.github.io/frontend-mentor/challenges/qr-code-component)
+- Solution URL: [QR code component](https://loopchaves.github.io/challenges/solutions/qr-code-component)
 
 ## Built with
 

@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useMediaQuery } from 'react-responsive';
 import { change } from '../app/challengeSlice';
 import { toggleShow } from '../app/asideSlice';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 import ChallengesList from './components/Aside/ChallengesList';
 import LevelTag from './components/Aside/LevelTag';
@@ -11,8 +12,10 @@ import challenges from './data/challenges.json';
 export default function Aside() {
   const levels = ['newbie', 'junior', 'intermediate', 'advanced', 'guru'];
   const show = useSelector(state => state.aside.show);
-  const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   const dispatch = useDispatch();
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const selectChallenge = useCallback((challenge) => {
     const links = document.querySelectorAll('li');
@@ -25,8 +28,18 @@ export default function Aside() {
   }, [dispatch]);
 
   useEffect(() => {
-    selectChallenge(challenges[0]);
-  }, [selectChallenge]);
+    const param = new URLSearchParams(location.search);
+    let challenge;
+    if (param.has('challenge')) {
+      const name = param.get('challenge');
+      challenge = challenges.find(obj => obj.name === name);
+    } else {
+      challenge = challenges[0];
+    }
+    console.log(challenge);
+    selectChallenge(challenge);
+    return () => navigate('/challenges');
+  }, [selectChallenge, location, navigate]);
 
   useEffect(() => {
     if (isMobile) {

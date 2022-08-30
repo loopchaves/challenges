@@ -25,15 +25,15 @@ Users should be able to:
 
 - Mobile (max-width: 375px)
 
-<img src='../../img/screenshots/faq-accordion-card-mobile.png' width='200'>
+<img src='../../src/img/screenshots/faq-accordion-card-mobile.png' width='200'>
 
 - Desktop
 
-<img src='../../img/screenshots/faq-accordion-card-desktop.png' width='500'>
+<img src='../../src/img/screenshots/faq-accordion-card-desktop.png' width='500'>
 
 ### Links
 
-- Solution URL: [FAQ accordion card without JavaScript](https://loopchaves.github.io/frontend-mentor/challenges/faq-accordion-card-without-javascript)
+- Solution URL: [FAQ accordion card without JavaScript](https://loopchaves.github.io/challenges/solutions/faq-accordion-card-without-javascript)
 
 ## Built with
 

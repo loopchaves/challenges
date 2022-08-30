@@ -24,15 +24,15 @@ Users should be able to:
 
 ### Screenshot
 
-<img src='../../img/screenshots/interactive-rating-component0.png' width='200'>
+<img src='../../src/img/screenshots/interactive-rating-component0.png' width='200'>
 
-<img src='../../img/screenshots/interactive-rating-component1.png' width='200'>
+<img src='../../src/img/screenshots/interactive-rating-component1.png' width='200'>
 
-<img src='../../img/screenshots/interactive-rating-component2.png' width='200'>
+<img src='../../src/img/screenshots/interactive-rating-component2.png' width='200'>
 
 ### Links
 
-- Solution URL: [Interactive rating component](https://loopchaves.github.io/frontend-mentor/challenges/interactive-rating-component)
+- Solution URL: [Interactive rating component](https://loopchaves.github.io/challenges/solutions/interactive-rating-component)
 
 ## Built with
 

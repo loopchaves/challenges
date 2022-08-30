@@ -24,15 +24,15 @@ Users should be able to:
 
 - Mobile (max-width: 375px)
 
-<img src='../../img/screenshots/3-column-preview-card-component-mobile.png' width='200'>
+<img src='../../src/img/screenshots/3-column-preview-card-component-mobile.png' width='200'>
 
 - Desktop
 
-<img src='../../img/screenshots/3-column-preview-card-component-desktop.png' width='500'>
+<img src='../../src/img/screenshots/3-column-preview-card-component-desktop.png' width='500'>
 
 ### Links
 
-- Solution URL: [3 column preview card component](https://loopchaves.github.io/frontend-mentor/challenges/3-column-preview-card-component)
+- Solution URL: [3 column preview card component](https://loopchaves.github.io/challenges/solutions/3-column-preview-card-component)
 
 ## Built with
 
