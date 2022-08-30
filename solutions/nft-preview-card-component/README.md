@@ -22,13 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-<img src='../../img/screenshots/nft-preview-card-component0.png' width='200'>
+<img src='../../src/img/screenshots/nft-preview-card-component0.png' width='200'>
 
-<img src='../../img/screenshots/nft-preview-card-component1.png' width='200'>
+<img src='../../src/img/screenshots/nft-preview-card-component1.png' width='200'>
 
 ### Links
 
-- Solution URL: [NFT preview card component](https://loopchaves.github.io/frontend-mentor/challenges/nft-preview-card-component)
+- Solution URL: [NFT preview card component](https://loopchaves.github.io/challenges/solutions/nft-preview-card-component)
 
 ## Built with
 

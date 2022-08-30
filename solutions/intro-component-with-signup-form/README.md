@@ -27,17 +27,17 @@ Users should be able to:
 
 - Mobile (max-width: 375px)
 
-<img src='../../img/screenshots/intro-component-with-sign-up-form-mobile0.png' width='200'>
+<img src='../../src/img/screenshots/intro-component-with-sign-up-form-mobile0.png' width='200'>
 
-<img src='../../img/screenshots/intro-component-with-sign-up-form-mobile1.png' width='200'>
+<img src='../../src/img/screenshots/intro-component-with-sign-up-form-mobile1.png' width='200'>
 
 - Desktop
 
-<img src='../../img/screenshots/intro-component-with-sign-up-form-desktop.png' width='500'>
+<img src='../../src/img/screenshots/intro-component-with-sign-up-form-desktop.png' width='500'>
 
 ### Links
 
-- Solution URL: [Intro component with sign up form](https://loopchaves.github.io/frontend-mentor/challenges/intro-component-with-signup-form)
+- Solution URL: [Intro component with sign up form](https://loopchaves.github.io/challenges/solutions/intro-component-with-signup-form)
 
 ## Built with
 

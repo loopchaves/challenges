@@ -16,15 +16,15 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Mobile (max-width: 375px)
 
-<img src='../../img/screenshots/profile-card-component-mobile.png' width='200'>
+<img src='../../src/img/screenshots/profile-card-component-mobile.png' width='200'>
 
 - Desktop
 
-<img src='../../img/screenshots/profile-card-component-desktop.png' width='500'>
+<img src='../../src/img/screenshots/profile-card-component-desktop.png' width='500'>
 
 ### Links
 
-- Solution URL: [Profile card component](https://loopchaves.github.io/frontend-mentor/challenges/profile-card-component)
+- Solution URL: [Profile card component](https://loopchaves.github.io/challenges/solutions/profile-card-component)
 
 ## Built with
 
