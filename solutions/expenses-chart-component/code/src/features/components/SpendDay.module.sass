@@ -1,0 +1,43 @@
+@use '../../styles/shared'
+
+.container
+    display: flex
+    flex-grow: 1
+    flex-basis: 0
+    flex-direction: column
+    align-items: center
+    align-self: flex-end
+    height: 100%
+    gap: 0.5rem
+    position: relative
+    margin-top: 3rem
+    cursor: pointer
+
+    &:hover > .amount
+        opacity: 1
+
+    &:hover > .bar
+        opacity: 0.8
+
+    .amount
+        border-radius: 5px
+        width: 100%
+        background-color: shared.$dark-brown
+        color: shared.$white
+        font-size: 1rem
+        font-weight: 700
+        padding: 0.5rem
+        position: absolute
+        top: -3rem
+        box-sizing: content-box
+        opacity: 0
+        transition: 0.3s ease
+
+    .bar
+        border-radius: 5px
+        width: 85%
+        background-color: shared.$soft-red
+        transition: 0.3s ease
+
+    p
+        color: shared.$medium-brown
