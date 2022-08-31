@@ -15,3 +15,6 @@
     - [FAQ accordion card **without JavaScript**](https://loopchaves.github.io/challenges?challenge=faq-accordion-card-without-javascript)
     - [FAQ accordion card **with JavaScript**](https://loopchaves.github.io/challenges?challenge=faq-accordion-card-with-javascript)
     - [Intro component with sign up form](https://loopchaves.github.io/challenges?challenge=intro-component-with-signup-form)
+
+2. **Junior**
+    - [expenses-chart-component](https://loopchaves.github.io/challenges?challenge=expenses-chart-component)
