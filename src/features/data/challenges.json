@@ -140,5 +140,22 @@
 			"intro-component-with-sign-up-form-mobile1.png",
 			"intro-component-with-sign-up-form-desktop.png"
 		]
+	},
+	{
+		"level": "junior",
+		"name": "expenses-chart-component",
+		"title": "Expenses chart component",
+		"fem": "#",
+		"build": [
+			"Semantic HTML5 markup",
+			"Flexbox",
+			"SASS",
+			"Mobile-first workflow",
+			"ReactJS"
+		],
+		"screenshots": [
+			"expenses-chart-component-mobile.png",
+			"expenses-chart-component-desktop.png"
+		]
 	}
 ]
