@@ -20,10 +20,15 @@ export default function App() {
         setData(slip)
         setLoading(false);
       })
-      .catch(err => console.log(err));
+      .catch(err => {
+        console.log(err);
+        setLoading(false);
+      });
   }, [setData]);
 
-  useEffect(() => newAdvice, [newAdvice]);
+  useEffect(() => {
+    newAdvice();
+  }, [newAdvice]);
 
   return (
     <main className={styles.container}>
