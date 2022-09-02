@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 
 import spin from './img/loading.svg';
 import dice from './img/icon-dice.svg';
@@ -8,7 +8,7 @@ export default function App() {
   const [data, setData] = useState({ slip: {} });
   const [loading, setLoading] = useState(true);
 
-  function newAdvice() {
+  const newAdvice = useCallback(() => {
     setLoading(true);
     const api = {
       method: 'GET',
@@ -21,9 +21,9 @@ export default function App() {
         setLoading(false);
       })
       .catch(err => console.log(err));
-  }
+  }, [setData]);
 
-  useEffect(() => newAdvice, []);
+  useEffect(() => newAdvice, [newAdvice]);
 
   return (
     <main className={styles.container}>
