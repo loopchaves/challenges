@@ -1,0 +1,68 @@
+@use 'shared'
+
+.container
+    background-color: shared.$dark-grayish-blue
+    padding: 0 3rem
+    padding-top: 3rem
+    border-radius: 15px
+    text-align: center
+    width: 34rem
+
+    h1
+        font-size: 0.8rem
+        color: shared.$neon-green
+        text-transform: uppercase
+        letter-spacing: 0.2rem
+        margin-bottom: 2rem
+
+    p
+        font-size: 1.7rem
+        color: shared.$light-cyan
+        word-wrap: break-word
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        &::after
+            content: ''
+            background: url('../img/pattern-divider-desktop.svg') no-repeat
+            background-size: contain
+            background-position: center
+            width: 100%
+            height: 1.5rem
+            margin-top: 2rem
+            margin-bottom: 1.5rem
+
+        div
+            img
+                width: 5rem
+                height: 5rem
+
+    button
+        background-color: shared.$neon-green
+        padding: 1rem
+        border: none
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 60px
+        height: 60px
+        margin: 0 auto -30px auto
+        cursor: pointer
+        transition: 0.5s ease
+
+        &:hover
+            box-shadow: 0 0 30px shared.$neon-green
+
+@media screen and ( max-width: 375px )
+    .container
+        margin: 0 1rem
+
+        p
+            font-size: 1.3rem
+
+            &::after
+                background: url('../img/pattern-divider-mobile.svg') no-repeat
+                background-size: contain
+                background-position: center

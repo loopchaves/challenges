@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/challenges/solutions/advice-generator-app/static/css/main.3d76ae63.css",
+    "main.js": "/challenges/solutions/advice-generator-app/static/js/main.100c6b0e.js",
+    "index.html": "/challenges/solutions/advice-generator-app/index.html",
+    "static/media/loading.svg": "/challenges/solutions/advice-generator-app/static/media/loading.89625ce8f3bbc97dfbba2bafa8694458.svg",
+    "static/media/icon-dice.svg": "/challenges/solutions/advice-generator-app/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/pattern-divider-desktop.svg": "/challenges/solutions/advice-generator-app/static/media/pattern-divider-desktop.ed9685263f6b47d21c88.svg",
+    "static/media/pattern-divider-mobile.svg": "/challenges/solutions/advice-generator-app/static/media/pattern-divider-mobile.aca38726412164df099c.svg",
+    "main.3d76ae63.css.map": "/challenges/solutions/advice-generator-app/static/css/main.3d76ae63.css.map",
+    "main.100c6b0e.js.map": "/challenges/solutions/advice-generator-app/static/js/main.100c6b0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d76ae63.css",
+    "static/js/main.100c6b0e.js"
+  ]
+}
