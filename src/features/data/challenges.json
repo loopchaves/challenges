@@ -157,5 +157,22 @@
 			"expenses-chart-component-mobile.png",
 			"expenses-chart-component-desktop.png"
 		]
+	},
+	{
+		"level": "junior",
+		"name": "advice-generator-app",
+		"title": "Advice generator app",
+		"fem": "#",
+		"build": [
+			"Semantic HTML5 markup",
+			"Flexbox",
+			"SASS",
+			"Mobile-first workflow",
+			"ReactJS"
+		],
+		"screenshots": [
+			"advice-generator-app-mobile.png",
+			"advice-generator-app-desktop.png"
+		]
 	}
 ]

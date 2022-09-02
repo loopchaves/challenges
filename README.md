@@ -17,4 +17,5 @@
     - [Intro component with sign up form](https://loopchaves.github.io/challenges?challenge=intro-component-with-signup-form)
 
 2. **Junior**
-    - [expenses-chart-component](https://loopchaves.github.io/challenges?challenge=expenses-chart-component)
+    - [Expenses chart component](https://loopchaves.github.io/challenges?challenge=expenses-chart-component)
+	- [Advice generator app](https://loopchaves.github.io/challenges?challenge=advice-generator-app)
