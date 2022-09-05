@@ -28,9 +28,9 @@ Users should be able to:
 
 - Mobile (max-width: 375px)
 
-<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/interactive-card-details-form-mobile.png' width='200'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/interactive-card-details-form-mobile1.png' width='200'>
 
-<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/interactive-card-details-form-mobile.png' width='200'>
+<img src='https://github.com/loopchaves/challenges/blob/main/src/img/screenshots/interactive-card-details-form-mobile2.png' width='200'>
 
 - Desktop
 
