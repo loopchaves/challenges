@@ -1,0 +1,108 @@
+@use '../../styles/shared'
+    
+@mixin card-layout($background)
+    background: url($background) no-repeat
+    background-size: cover
+    background-position: center
+    border-radius: 10px
+    width: 400px
+    height: 230px
+    position: absolute
+
+.container
+    background: url('../../img/bg-main-desktop.png') no-repeat
+    background-size: cover
+    background-position: center
+    height: 100%
+    width: 25%
+    position: relative
+    display: flex
+    align-items: center
+
+    .movel
+        position: absolute
+        box-sizing: content-box
+        width: 500px
+        height: 500px
+        left: 40%
+
+        .card_front
+            @include card-layout('../../img/bg-card-front.png')
+            top: 0
+            left: 0
+            padding: 25px
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            gap: 30px
+            color: shared.$white
+
+            &::before
+                content: ''
+                background: url('../../img/card-logo.svg') no-repeat
+                background-size: contain
+                background-position: center
+                width: 90px
+                height: 50px
+                position: absolute
+                top: 25px
+                left: 25px
+
+            .cardNumber
+                font-size: 25px
+                letter-spacing: 2px
+
+            .bottom
+                display: flex
+                justify-content: space-between
+
+                .name
+                    text-transform: uppercase
+                    letter-spacing: 2px
+            
+        .card_back
+            @include card-layout('../../img/bg-card-back.png')
+            bottom: 0
+            right: 0
+
+            .cvc
+                color: shared.$white
+                position: absolute
+                font-size: 14px
+                letter-spacing: 2px
+                top: 104px
+                right: 40px
+
+@media screen and ( max-width: 1024px )
+    .container
+        .movel
+            transform: scale(0.8)
+            left: -10%
+
+@media screen and ( max-width: 375px )
+    .container
+        background: url('../../img/bg-main-mobile.png') no-repeat
+        background-size: cover
+        background-position: center
+        width: 100%
+        height: 250px
+        justify-content: center
+        margin-bottom: 2.5rem
+
+        .movel
+            top: 1.5rem
+            left: auto
+            transform: scale(0.7)
+            position: relative
+            height: 360px
+
+            .card_front
+                top: auto
+                bottom: 0
+                left: -3rem
+                z-index: 1
+
+            .card_back
+                bottom: auto
+                top: 0
+                right: -3rem

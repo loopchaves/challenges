@@ -174,5 +174,25 @@
 			"advice-generator-app-mobile.png",
 			"advice-generator-app-desktop.png"
 		]
+	},
+	{
+		"level": "junior",
+		"name": "interactive-card-details-form",
+		"title": "Interactive card details form",
+		"fem": "#",
+		"build": [
+			"Semantic HTML5 markup",
+			"Flexbox",
+			"SASS",
+			"ReactJS",
+			"Formik - React library",
+			"Yup - React library",
+			"react-number-format - React library"
+		],
+		"screenshots": [
+			"interactive-card-details-form-mobile1.png",
+			"interactive-card-details-form-mobile2.png",
+			"interactive-card-details-form-desktop.png"
+		]
 	}
 ]

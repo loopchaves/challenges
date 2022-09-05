@@ -19,3 +19,4 @@
 2. **Junior**
     - [Expenses chart component](https://loopchaves.github.io/challenges?challenge=expenses-chart-component)
 	- [Advice generator app](https://loopchaves.github.io/challenges?challenge=advice-generator-app)
+	- [Interactive card details form](https://loopchaves.github.io/challenges?challenge=interactive-card-details-form)
