@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/challenges/solutions/product-preview-card-component/static/css/main.b6e24e27.css",
+    "main.css": "/challenges/solutions/product-preview-card-component/static/css/main.73b787a4.css",
     "main.js": "/challenges/solutions/product-preview-card-component/static/js/main.f26a9a66.js",
     "static/media/image-product-desktop.jpg": "/challenges/solutions/product-preview-card-component/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
     "static/media/image-product-mobile.jpg": "/challenges/solutions/product-preview-card-component/static/media/image-product-mobile.113818bc746dc8e64ffb.jpg",
     "index.html": "/challenges/solutions/product-preview-card-component/index.html",
     "static/media/icon-cart.svg": "/challenges/solutions/product-preview-card-component/static/media/icon-cart.9606ad84b7565a3f523f.svg",
-    "main.b6e24e27.css.map": "/challenges/solutions/product-preview-card-component/static/css/main.b6e24e27.css.map",
+    "main.73b787a4.css.map": "/challenges/solutions/product-preview-card-component/static/css/main.73b787a4.css.map",
     "main.f26a9a66.js.map": "/challenges/solutions/product-preview-card-component/static/js/main.f26a9a66.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6e24e27.css",
+    "static/css/main.73b787a4.css",
     "static/js/main.f26a9a66.js"
   ]
 }
