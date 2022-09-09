@@ -1,0 +1,60 @@
+@use 'shared'
+
+.container
+    background-color: shared.$white
+    width: 23%
+    height: auto
+    border-radius: 10px
+    text-align: center
+    overflow: hidden
+    box-shadow: 0 0.5rem 2rem -0.5rem shared.$dark-grayish-blue
+
+    .photoWrapper
+        background: url('../img/bg-pattern-card.svg')
+
+        .photo
+            width: 6rem
+            height: 6rem
+            border: 5px solid shared.$white
+            border-radius: 50%
+            margin-top: 5rem
+            margin-bottom: -3rem
+
+    .profile
+        margin-top: 4rem
+
+        h1, h2
+            display: inline-block
+
+        h1, h4
+            color: shared.$very-dark-desaturated-blue
+            font-weight: 700
+            font-size: 1.1rem
+
+        h2, h3, p
+            color: shared.$dark-grayish-blue
+            font-weight: 400
+
+        h2
+            font-size: 1.1rem
+            margin-left: 0.5rem
+
+        p
+            font-size: 0.6rem
+            margin-top: 0.4rem
+            letter-spacing: 0.1rem
+
+        h3
+            font-size: 0.8rem
+            margin-top: 0.5rem
+            margin-bottom: 2rem
+
+    .statusInfo
+        display: flex
+        justify-content: space-around
+        padding: 1.5rem
+        border-top: 1px solid shared.$light-gray
+
+@media screen and ( max-width: 375px )
+    .container
+        width: 90%

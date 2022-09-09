@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/challenges/solutions/profile-card-component/static/css/main.f76588bd.css",
+    "main.js": "/challenges/solutions/profile-card-component/static/js/main.05cfd9ab.js",
+    "static/media/bg-pattern-card.svg": "/challenges/solutions/profile-card-component/static/media/bg-pattern-card.b61daebd3cb4b885d10f.svg",
+    "index.html": "/challenges/solutions/profile-card-component/index.html",
+    "static/media/bg-pattern-bottom.svg": "/challenges/solutions/profile-card-component/static/media/bg-pattern-bottom.a34eb319c02ad49587c3.svg",
+    "static/media/bg-pattern-top.svg": "/challenges/solutions/profile-card-component/static/media/bg-pattern-top.dae77b1febf9b29fe34e.svg",
+    "main.f76588bd.css.map": "/challenges/solutions/profile-card-component/static/css/main.f76588bd.css.map",
+    "main.05cfd9ab.js.map": "/challenges/solutions/profile-card-component/static/js/main.05cfd9ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f76588bd.css",
+    "static/js/main.05cfd9ab.js"
+  ]
+}

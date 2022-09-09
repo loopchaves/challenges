@@ -1,0 +1,22 @@
+@use 'shared'
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html,
+body,
+#root
+    background-color: shared.$very-light-gray
+    width: 100vw
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+@media screen and ( max-width: 375px )
+    html,
+    body,
+    #root
+        height: auto

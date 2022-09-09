@@ -1,6 +1,6 @@
 # Expenses chart component solution
 
-This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -42,8 +42,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - Flexbox
 - SASS
-- Mobile-first workflow
-- ReactJS
+- [React](https://reactjs.org/) - JS library
 
 ## Author
 

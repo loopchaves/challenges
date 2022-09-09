@@ -1,0 +1,58 @@
+@use '../../styles/shared'
+
+.container
+    border-bottom: 1px solid shared.$divider
+    width: 100%
+
+    p
+        color: shared.$very-dark-grayish-blue
+        font-size: 0.9rem
+        font-weight: var(--fontWeight, 400)
+        padding: 1rem 1rem 1rem 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+        cursor: pointer
+
+        &::after
+            content: ''
+            background: url('../../img/icon-arrow-down.svg') no-repeat
+            background-position: center
+            background-size: contain
+            width: 0.6rem
+            height: 0.6rem
+            transform: rotate(var(--rotation, 0))
+            transition: transform 0.6s
+
+        &:hover
+            color: shared.$soft-red
+
+    span
+        color: shared.$dark-grayish-blue
+        font-size: 0.8rem
+        line-height: 1.5
+        display: block
+        width: 100%
+        padding-right: 2rem
+        margin-bottom: 1rem
+        animation: show 0.5s ease-in-out
+
+
+@keyframes show
+    0%
+        opacity: 0
+        transform: translateY(-30px)
+    100%
+        opacity: 1
+        transform: translateY(0)
+
+@media screen and ( max-width: 375px )
+    .container
+        p
+            padding: 1rem 0
+            font-size: 0.85rem
+
+        span
+            font-size: 0.77rem
+            padding-right: 1rem
+            margin-top: -0.4rem

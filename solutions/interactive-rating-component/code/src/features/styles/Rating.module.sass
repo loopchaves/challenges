@@ -1,0 +1,70 @@
+@use '../../styles/shared'
+
+@mixin circle
+    background-color: shared.$dark-blue
+    color: shared.$light-grey
+    width: 2.9rem
+    height: 2.9rem
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+
+.container
+    display: flex
+    flex-direction: column
+    gap: 1.5rem
+
+    .star
+        background: url('../../img/icon-star.svg') no-repeat
+        background-size: 1rem
+        background-position: center
+        @include circle
+
+    h1
+        color: shared.$white
+        font-size: 1.7rem
+        margin-bottom: -0.5rem
+
+    p
+        color: shared.$light-grey
+        font-size: 0.9rem
+        line-height: 1.5
+
+    .rating
+        display: flex
+        justify-content: space-between
+
+        .circle
+            @include circle
+            padding-top: 0.1rem
+            font-size: 0.9rem
+            font-weight: 700
+            cursor: pointer
+            transition: 0.5s
+
+            &:hover
+                background-color: shared.$orange
+                color: shared.$white
+
+        .rate
+            background-color: shared.$medium-grey
+            color: shared.$white
+
+    button
+        color: shared.$white
+        background-color: shared.$orange
+        font-size: 0.9rem
+        font-weight: 700
+        letter-spacing: 0.2rem
+        text-transform: uppercase
+        border: none
+        border-radius: 50px
+        padding: 0.8rem
+        padding-top: 1.05rem
+        cursor: pointer
+        transition: 0.5s
+
+        &:hover
+            background-color: shared.$white
+            color: shared.$orange

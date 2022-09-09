@@ -1,0 +1,32 @@
+@use 'shared'
+
+$bg-pattern: url('../img/bg-pattern-top.svg'), url('../img/bg-pattern-bottom.svg')
+$bg-position-desktop: top -35rem left -20rem, bottom -42rem right -15rem
+$bg-position-mobile: top -18rem left -22rem, bottom -15rem right -22rem
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: shared.$font-Kumbh-Sans
+
+html,
+body,
+#root
+    width: 100vw
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: shared.$dark-cyan
+    background-image: $bg-pattern
+    background-position: $bg-position-desktop
+    background-size: 64rem
+    background-repeat: no-repeat
+
+@media screen and ( max-width: 375px )
+    html,
+    body,
+    #root
+        background-position: $bg-position-mobile
+        background-size: 35rem

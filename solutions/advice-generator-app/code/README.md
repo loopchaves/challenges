@@ -38,10 +38,9 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- SASS
 - Flexbox
-- Mobile-first workflow
-- ReactJS
+- SASS
+- [React](https://reactjs.org/) - JS library
 
 ## Author
 

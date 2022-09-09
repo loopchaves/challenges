@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/challenges/solutions/qr-code-component/static/css/main.edf6a29d.css",
+    "main.js": "/challenges/solutions/qr-code-component/static/js/main.59d312f7.js",
+    "index.html": "/challenges/solutions/qr-code-component/index.html",
+    "main.edf6a29d.css.map": "/challenges/solutions/qr-code-component/static/css/main.edf6a29d.css.map",
+    "main.59d312f7.js.map": "/challenges/solutions/qr-code-component/static/js/main.59d312f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edf6a29d.css",
+    "static/js/main.59d312f7.js"
+  ]
+}
