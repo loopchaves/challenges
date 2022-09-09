@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/challenges/solutions/interactive-rating-component/static/css/main.2fb16e15.css",
+    "main.js": "/challenges/solutions/interactive-rating-component/static/js/main.18e5f09a.js",
+    "static/media/illustration-thank-you.svg": "/challenges/solutions/interactive-rating-component/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/challenges/solutions/interactive-rating-component/index.html",
+    "static/media/icon-star.svg": "/challenges/solutions/interactive-rating-component/static/media/icon-star.12766a8d207af861a70f.svg",
+    "main.2fb16e15.css.map": "/challenges/solutions/interactive-rating-component/static/css/main.2fb16e15.css.map",
+    "main.18e5f09a.js.map": "/challenges/solutions/interactive-rating-component/static/js/main.18e5f09a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fb16e15.css",
+    "static/js/main.18e5f09a.js"
+  ]
+}

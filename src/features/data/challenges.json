@@ -6,9 +6,9 @@
 		"fem": "qr-code-component-using-simple-html5-and-css-SIC1YEgoYL",
 		"build": [
 			"Semantic HTML5 markup",
-			"CSS custom properties",
 			"Flexbox",
-			"Mobile-first workflow"
+			"Sass",
+			"ReactJS"
 		],
 		"screenshots": [
 			"qr-code-component.png"
@@ -21,9 +21,10 @@
 		"fem": "product-preview-card-using-simple-html5-and-css-gmPouDOaZc",
 		"build": [
 			"Semantic HTML5 markup",
-			"CSS custom properties",
 			"Flexbox",
-			"Mobile-first workflow"
+			"Sass",
+			"ReactJS",
+			"react-resposive"
 		],
 		"screenshots": [
 			"product-preview-card-component-mobile.png",
@@ -37,8 +38,9 @@
 		"fem": "3column-preview-card-component-using-sinple-html5-and-css-iHI2okOt26",
 		"build": [
 			"Semantic HTML5 markup",
-			"CSS custom properties",
-			"Flexbox"
+			"Flexbox",
+			"Sass",
+			"ReactJS"
 		],
 		"screenshots": [
 			"3-column-preview-card-component-mobile.png",
@@ -52,8 +54,9 @@
 		"fem": "profile-card-component-using-semantic-html5-and-css-U23lP1DCeB",
 		"build": [
 			"Semantic HTML5 markup",
-			"CSS custom properties",
-			"Flexbox"
+			"Flexbox",
+			"Sass",
+			"ReactJS"
 		],
 		"screenshots": [
 			"profile-card-component-mobile.png",
@@ -67,9 +70,9 @@
 		"fem": "interactive-rating-component-using-semantic-html5-css-and-js-8dr73L7MAj",
 		"build": [
 			"Semantic HTML5 markup",
-			"CSS custom properties",
 			"Flexbox",
-			"JavaScript"
+			"Sass",
+			"ReactJS"
 		],
 		"screenshots": [
 			"interactive-rating-component0.png",
@@ -84,39 +87,24 @@
 		"fem": "nft-preview-card-component-using-semantic-html5-and-css-pkFP1TdQQ-",
 		"build": [
 			"Semantic HTML5 markup",
-			"CSS custom properties",
-			"Flexbox"
-		],
-		"screenshots": [
-			"nft-preview-card-component0.png",
-			"nft-preview-card-component1.png"
-		]
-	},
-	{
-		"level": "newbie",
-		"name": "faq-accordion-card-without-javascript",
-		"title": "FAQ accordion card without JavaScript",
-		"fem": "faq-accordion-card-without-using-javascript-jw9X8VyE2J",
-		"build": [
-			"Semantic HTML5 markup",
-			"CSS custom properties",
-			"Flexbox"
-		],
-		"screenshots": [
-			"faq-accordion-card-mobile.png",
-			"faq-accordion-card-desktop.png"
-		]
-	},
-	{
-		"level": "newbie",
-		"name": "faq-accordion-card-with-javascript",
-		"title": "FAQ accordion card with JavaScript",
-		"fem": "faq-accordion-card-without-using-javascript-jw9X8VyE2J",
-		"build": [
-			"Semantic HTML5 markup",
-			"CSS custom properties",
 			"Flexbox",
-			"JavaScript"
+			"Sass",
+			"ReactJS"
+		],
+		"screenshots": [
+			"nft-preview-card-component.png"
+		]
+	},
+	{
+		"level": "newbie",
+		"name": "faq-accordion-card",
+		"title": "FAQ accordion card",
+		"fem": "faq-accordion-card-without-using-javascript-jw9X8VyE2J",
+		"build": [
+			"Semantic HTML5 markup",
+			"Flexbox",
+			"Sass",
+			"ReactJS"
 		],
 		"screenshots": [
 			"faq-accordion-card-mobile.png",
@@ -130,10 +118,11 @@
 		"fem": "intro-component-with-sign-up-form-using-aria-atributes-and-javascrip-qaUpEmr0dp",
 		"build": [
 			"Semantic HTML5 markup",
-			"CSS custom properties",
 			"Flexbox",
-			"Mobile-first workflow",
-			"JavaScript"
+			"Sass",
+			"ReactJS",
+			"Formik - React library",
+			"Yup - React library"
 		],
 		"screenshots": [
 			"intro-component-with-sign-up-form-mobile0.png",
@@ -145,12 +134,11 @@
 		"level": "junior",
 		"name": "expenses-chart-component",
 		"title": "Expenses chart component",
-		"fem": "#",
+		"fem": "expenses-chart-component-using-reactjs-and-sass-AlMIPrBYd6",
 		"build": [
 			"Semantic HTML5 markup",
 			"Flexbox",
-			"SASS",
-			"Mobile-first workflow",
+			"Sass",
 			"ReactJS"
 		],
 		"screenshots": [
@@ -162,12 +150,11 @@
 		"level": "junior",
 		"name": "advice-generator-app",
 		"title": "Advice generator app",
-		"fem": "#",
+		"fem": "advice-generator-app-using-reactjs-and-sass-pHAED-kEp3",
 		"build": [
 			"Semantic HTML5 markup",
 			"Flexbox",
-			"SASS",
-			"Mobile-first workflow",
+			"Sass",
 			"ReactJS"
 		],
 		"screenshots": [
@@ -179,11 +166,11 @@
 		"level": "junior",
 		"name": "interactive-card-details-form",
 		"title": "Interactive card details form",
-		"fem": "#",
+		"fem": "interactive-card-details-form-using-reactjs-and-sass-fNavIdb_KU",
 		"build": [
 			"Semantic HTML5 markup",
 			"Flexbox",
-			"SASS",
+			"Sass",
 			"ReactJS",
 			"Formik - React library",
 			"Yup - React library",

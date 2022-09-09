@@ -45,7 +45,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - Flexbox
 - SASS
-- ReactJS
+- [React](https://reactjs.org/) - JS library
 - [Formik](https://formik.org/) - React library
 - [Yup](https://github.com/jquense/yup) - React library
 - [react-number-format](https://www.npmjs.com/package/react-number-format) - React library

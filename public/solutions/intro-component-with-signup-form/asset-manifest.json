@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/challenges/solutions/intro-component-with-signup-form/static/css/main.af01e73f.css",
+    "main.js": "/challenges/solutions/intro-component-with-signup-form/static/js/main.32ced550.js",
+    "static/media/bg-intro-desktop.png": "/challenges/solutions/intro-component-with-signup-form/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "index.html": "/challenges/solutions/intro-component-with-signup-form/index.html",
+    "static/media/icon-error.svg": "/challenges/solutions/intro-component-with-signup-form/static/media/icon-error.b72f792e9c900128f5c8.svg",
+    "main.af01e73f.css.map": "/challenges/solutions/intro-component-with-signup-form/static/css/main.af01e73f.css.map",
+    "main.32ced550.js.map": "/challenges/solutions/intro-component-with-signup-form/static/js/main.32ced550.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af01e73f.css",
+    "static/js/main.32ced550.js"
+  ]
+}

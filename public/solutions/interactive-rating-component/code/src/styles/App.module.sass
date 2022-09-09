@@ -1,0 +1,15 @@
+@use 'shared'
+
+$bg-gradient: radial-gradient(circle 35rem at top, shared.$dark-blue, shared.$very-dark-blue)
+
+.container
+    background: $bg-gradient
+    max-width: 24rem
+    width: 30%
+    padding: 2rem
+    border-radius: 30px
+
+@media screen and ( max-width: 375px )
+    .container
+        width: 90%
+        padding: 1.5rem

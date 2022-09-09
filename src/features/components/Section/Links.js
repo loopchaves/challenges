@@ -6,7 +6,7 @@ import styles from './styles/Links.module.sass';
 export default function Links() {
   const name = useSelector(state => state.challenge.name);
   const site = process.env.PUBLIC_URL + '/solutions/' + name;
-  const code = 'https://github.com/loopchaves/challenges/tree/main/public/solutions/' + name;
+  const code = 'https://github.com/loopchaves/challenges/tree/main/public/solutions/' + name + '/code';
   return (
     <div className={styles.container}>
       <a className={styles.site} href={site} target="_blank" rel="noreferrer">

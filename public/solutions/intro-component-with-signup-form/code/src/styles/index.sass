@@ -1,0 +1,26 @@
+@use 'shared'
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: shared.$font
+
+html,
+body,
+#root
+    background: url('../img/bg-intro-desktop.png')
+    background-color: shared.$red
+    width: 100vw
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+@media screen and ( max-width: 375px )
+    html,
+    body,
+    #root
+        flex-direction: column
+        justify-content: flex-start
+        height: auto
