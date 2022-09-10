@@ -11,44 +11,74 @@
         color: shared.$dark-brown
 
 .container
-    margin: 1rem
     width: 33rem
 
-.header
-    @include style(true)
-    margin-bottom: 1.5rem
-    align-items: center
-    display: flex
-    justify-content: space-between
-
-    h1
-        font-weight: 400
-        font-size: 1rem
-        margin-bottom: 0.5rem
-
-    p
-        font-weight: 700
-        font-size: 2rem
-
-.main
-    @include style()
-
-    .info
+    .header
+        @include style(true)
+        margin-bottom: 1.5rem
+        align-items: center
         display: flex
         justify-content: space-between
 
-        .desc
+        h1
+            font-weight: 400
             font-size: 1rem
-            color: shared.$medium-brown
+            margin-bottom: 0.5rem
 
-        .total
-            font-size: 2.5rem
+        p
             font-weight: 700
+            font-size: 2rem
 
-        .percent
-            font-size: 1.2rem
-            font-weight: 700
-            text-align: right
+    .main
+        @include style()
 
-        .percent_div
-            align-self: flex-end
+        .info
+            display: flex
+            justify-content: space-between
+            padding: 0.8rem 0
+
+            .desc
+                font-size: 1rem
+                line-height: 1
+                color: shared.$medium-brown
+
+            .total
+                font-size: 2.5rem
+                font-weight: 700
+                line-height: 1
+                padding-top: 10px
+
+            .percent
+                font-size: 1.2rem
+                font-weight: 700
+                text-align: right
+
+            .percent_div
+                align-self: flex-end
+
+@media screen and ( max-width: 375px )
+    .container
+        width: 90%
+
+        .header
+            padding: 1rem
+
+            h1
+                font-size: 0.95rem
+            p
+                font-size: 1.5rem
+        .main
+            padding: 1rem
+
+            .info
+                padding: 0
+
+                .desc
+                    font-size: 0.95rem
+
+                .total
+                    font-size: 1.8rem
+
+                .percent
+                    font-size: 1rem
+                    margin-bottom: 4px

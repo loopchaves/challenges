@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/challenges/static/css/main.0b10759a.css",
-    "main.js": "/challenges/static/js/main.fd9a4367.js",
+    "main.js": "/challenges/static/js/main.01fa1e3b.js",
     "static/media/product-preview-card-component-desktop.png": "/challenges/static/media/product-preview-card-component-desktop.393d2b3d3a13a2f154c4.png",
     "static/media/interactive-card-details-form-desktop.png": "/challenges/static/media/interactive-card-details-form-desktop.7dc4684b888844d50ce2.png",
     "static/media/product-preview-card-component-mobile.png": "/challenges/static/media/product-preview-card-component-mobile.89ae9b3dbb529d2d5f20.png",
@@ -15,23 +15,23 @@
     "static/media/profile-card-component-mobile.png": "/challenges/static/media/profile-card-component-mobile.02626bfa9054c5cbea5c.png",
     "static/media/faq-accordion-card-mobile.png": "/challenges/static/media/faq-accordion-card-mobile.d097bec0bbc19d4ac11a.png",
     "static/media/interactive-rating-component2.png": "/challenges/static/media/interactive-rating-component2.4b1139db64ca0ce24328.png",
-    "static/media/expenses-chart-component-desktop.png": "/challenges/static/media/expenses-chart-component-desktop.1ed5a6e0d2dc03ea54c0.png",
+    "static/media/expenses-chart-component-desktop.png": "/challenges/static/media/expenses-chart-component-desktop.310df715d2073e0a113c.png",
     "static/media/intro-component-with-sign-up-form-mobile0.png": "/challenges/static/media/intro-component-with-sign-up-form-mobile0.2e01ef1baa411860808e.png",
     "static/media/interactive-rating-component0.png": "/challenges/static/media/interactive-rating-component0.1c1d40402a7f0577fd4f.png",
     "static/media/interactive-rating-component1.png": "/challenges/static/media/interactive-rating-component1.952c59599fa514b9ce26.png",
     "static/media/intro-component-with-sign-up-form-mobile1.png": "/challenges/static/media/intro-component-with-sign-up-form-mobile1.65cf0891ac643030bcb2.png",
     "static/media/advice-generator-app-desktop.png": "/challenges/static/media/advice-generator-app-desktop.1472311a0d569b2ae3de.png",
     "static/media/3-column-preview-card-component-mobile.png": "/challenges/static/media/3-column-preview-card-component-mobile.315f941ed11d38dbcf7f.png",
-    "static/media/expenses-chart-component-mobile.png": "/challenges/static/media/expenses-chart-component-mobile.b2e51efaa3efef44ad77.png",
     "static/media/qr-code-component.png": "/challenges/static/media/qr-code-component.03aa73c888af2708277a.png",
+    "static/media/expenses-chart-component-mobile.png": "/challenges/static/media/expenses-chart-component-mobile.e4d3163a06ef36babc2d.png",
     "static/media/advice-generator-app-mobile.png": "/challenges/static/media/advice-generator-app-mobile.4f6aeddf62492e1260a6.png",
     "index.html": "/challenges/index.html",
     "static/media/icon-arrow.svg": "/challenges/static/media/icon-arrow.852fa301a0e795e07c59.svg",
     "main.0b10759a.css.map": "/challenges/static/css/main.0b10759a.css.map",
-    "main.fd9a4367.js.map": "/challenges/static/js/main.fd9a4367.js.map"
+    "main.01fa1e3b.js.map": "/challenges/static/js/main.01fa1e3b.js.map"
   },
   "entrypoints": [
     "static/css/main.0b10759a.css",
-    "static/js/main.fd9a4367.js"
+    "static/js/main.01fa1e3b.js"
   ]
 }
