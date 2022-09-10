@@ -1,7 +1,7 @@
 import styles from './SpendDay.module.sass';
 
 export default function SpendDay(props) {
-  const sizeBar = props.amount * 2.5;
+  const sizeBar = props.amount * 3;
   let style = { height: sizeBar.toString() + 'px' }
 
   if (props.now) {
@@ -10,7 +10,9 @@ export default function SpendDay(props) {
 
   return (
     <div className={styles.container}>
-      <div className={styles.amount}>${props.amount}</div>
+      <div className={styles.amount}>
+        <div className={styles.value}>${props.amount}</div>
+      </div>
       <div className={styles.bar} style={style}></div>
       <p>{props.day}</p>
     </div>

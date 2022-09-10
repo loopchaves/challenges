@@ -6,14 +6,14 @@ import styles from './Spending.module.sass';
 const week = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
 
 export default function Spending() {
-  const days = data.map(info => {
+  const days = data.map(expense => {
     const day = week[new Date().getDay()];
     return (
       <SpendDay
-        key={info.day}
-        amount={info.amount}
-        day={info.day}
-        now={info.day === day}
+        key={expense.day}
+        amount={expense.amount}
+        day={expense.day}
+        now={expense.day === day}
       />
     );
   });
