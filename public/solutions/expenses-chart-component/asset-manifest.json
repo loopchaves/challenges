@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/challenges/solutions/expenses-chart-component/static/css/main.bb08a89b.css",
+    "main.css": "/challenges/solutions/expenses-chart-component/static/css/main.4b602d8c.css",
     "main.js": "/challenges/solutions/expenses-chart-component/static/js/main.ac0a3db4.js",
     "index.html": "/challenges/solutions/expenses-chart-component/index.html",
     "static/media/logo.svg": "/challenges/solutions/expenses-chart-component/static/media/logo.99d5b9138a1a64cc6858cdac9a9d3bd4.svg",
-    "main.bb08a89b.css.map": "/challenges/solutions/expenses-chart-component/static/css/main.bb08a89b.css.map",
+    "main.4b602d8c.css.map": "/challenges/solutions/expenses-chart-component/static/css/main.4b602d8c.css.map",
     "main.ac0a3db4.js.map": "/challenges/solutions/expenses-chart-component/static/js/main.ac0a3db4.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb08a89b.css",
+    "static/css/main.4b602d8c.css",
     "static/js/main.ac0a3db4.js"
   ]
 }
