@@ -11,6 +11,7 @@ const InputName = ({ label, ...props }) => {
       <label htmlFor={props.name}>{label}</label>
       <input
         type='text'
+        maxLength='20'
         {...field}
         {...props}
         className={meta.touched && meta.error ? styles.errorInput : null}
@@ -112,45 +113,51 @@ function yearLimit(val) {
   return val;
 }
 
-const validateDate = values => {
-  const month = new Date().getMonth();
-  const year = new Date().getFullYear();
-  const date = new Date(year, month).getTime();
-  const expDate = new Date('20' + values.year, values.month).getTime();
+const validate = values => {
   const errors = {};
 
-  if (!values.month && !values.year) {
-    errors.date = "Date can't be blank";
-    errors.month = '.';
-    errors.year = '.';
-  } else if (!values.month) {
-    errors.date = "Month can't be blank";
-    errors.month = '.';
-  } else if (!values.year) {
-    errors.date = "Year can't be blank";
-    errors.year = '.';
-  } else if (!/\d{2}/.test(values.year)) {
-    errors.date = "Year must be 2 numbers";
-    errors.year = '.';
-  } else if (expDate < date) {
-    errors.date = 'Month has passed';
-    errors.month = '.';
+  if (values.month || values.year) {
+    const month = new Date().getMonth();
+    const year = new Date().getFullYear();
+    const date = new Date(year, month).getTime();
+    const expDate = new Date('20' + values.year, values.month).getTime();
+
+    if (!values.month && !values.year) {
+      errors.date = "Date can't be blank";
+      errors.month = '.';
+      errors.year = '.';
+    } else if (!values.month) {
+      errors.date = "Month can't be blank";
+      errors.month = '.';
+    } else if (!values.year) {
+      errors.date = "Year can't be blank";
+      errors.year = '.';
+    } else if (!/\d{2}/.test(values.year)) {
+      errors.date = "Year must be 2 numbers";
+      errors.year = '.';
+    } else if (expDate < date) {
+      errors.date = 'Month has passed';
+      errors.month = '.';
+    }
+  }
+
+  if (Number(values.cvc) === 0) {
+    errors.cvc = "Invalid value";
   }
 
   return errors;
 }
 
-export default function CardForm({ initialState, handlerSetState,handlerSubmit }) {
+export default function CardForm({ initialState, handlerSetState, handlerSubmit }) {
   const rgCardNumber = /\d{4}\s\d{4}\s\d{4}\s\d{4}/;
   const rgCvc = /\d{3}/;
   return (
     <div className={styles.container}>
       <Formik
         initialValues={{ ...initialState }}
-        validate={validateDate}
+        validate={validate}
         validationSchema={Yup.object({
           name: Yup.string()
-            .max(20, 'Must be 20 characters or less')
             .required("Name can't be blank"),
           cardNumber: Yup.string()
             .matches(rgCardNumber, 'Wrong format, must be 16 numbers')
@@ -174,7 +181,7 @@ export default function CardForm({ initialState, handlerSetState,handlerSubmit }
                 placeholder='e.g. Jane Appleseed'
                 onChange={e => {
                   formik.handleChange(e);
-                  handlerSetState({[e.target.name]: e.target.value});
+                  handlerSetState({ [e.target.name]: e.target.value });
                 }}
               />
             </div>
@@ -185,7 +192,7 @@ export default function CardForm({ initialState, handlerSetState,handlerSubmit }
                 placeholder='e.g. 1234 5678 9123 0000'
                 onChange={e => {
                   formik.handleChange(e);
-                  handlerSetState({[e.target.name]: e.target.value});
+                  handlerSetState({ [e.target.name]: e.target.value });
                 }}
               />
             </div>
@@ -202,7 +209,7 @@ export default function CardForm({ initialState, handlerSetState,handlerSubmit }
                       placeholder='MM'
                       onChange={e => {
                         formik.handleChange(e);
-                        handlerSetState({[e.target.name]: e.target.value});
+                        handlerSetState({ [e.target.name]: e.target.value });
                       }}
                     />
                   </div>
@@ -215,7 +222,7 @@ export default function CardForm({ initialState, handlerSetState,handlerSubmit }
                       placeholder='YY'
                       onChange={e => {
                         formik.handleChange(e);
-                        handlerSetState({[e.target.name]: e.target.value});
+                        handlerSetState({ [e.target.name]: e.target.value });
                       }}
                     />
                   </div>
@@ -231,7 +238,7 @@ export default function CardForm({ initialState, handlerSetState,handlerSubmit }
                   placeholder='e.g. 123'
                   onChange={e => {
                     formik.handleChange(e);
-                    handlerSetState({[e.target.name]: e.target.value});
+                    handlerSetState({ [e.target.name]: e.target.value });
                   }}
                 />
               </div>

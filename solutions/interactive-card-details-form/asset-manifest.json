@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/challenges/solutions/interactive-card-details-form/static/css/main.6486de0a.css",
-    "main.js": "/challenges/solutions/interactive-card-details-form/static/js/main.5f5527ee.js",
+    "main.css": "/challenges/solutions/interactive-card-details-form/static/css/main.7265bb4f.css",
+    "main.js": "/challenges/solutions/interactive-card-details-form/static/js/main.abee650d.js",
     "static/media/bg-main-desktop.png": "/challenges/solutions/interactive-card-details-form/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
     "static/media/bg-card-back.png": "/challenges/solutions/interactive-card-details-form/static/media/bg-card-back.23f68fa3aa3d5b33dfc8.png",
     "static/media/bg-card-front.png": "/challenges/solutions/interactive-card-details-form/static/media/bg-card-front.8153e2ca184402a8385f.png",
@@ -9,11 +9,11 @@
     "index.html": "/challenges/solutions/interactive-card-details-form/index.html",
     "static/media/icon-complete.svg": "/challenges/solutions/interactive-card-details-form/static/media/icon-complete.8fd757c0c5c44b1d597c.svg",
     "static/media/card-logo.svg": "/challenges/solutions/interactive-card-details-form/static/media/card-logo.8ca9036515954c3f8191.svg",
-    "main.6486de0a.css.map": "/challenges/solutions/interactive-card-details-form/static/css/main.6486de0a.css.map",
-    "main.5f5527ee.js.map": "/challenges/solutions/interactive-card-details-form/static/js/main.5f5527ee.js.map"
+    "main.7265bb4f.css.map": "/challenges/solutions/interactive-card-details-form/static/css/main.7265bb4f.css.map",
+    "main.abee650d.js.map": "/challenges/solutions/interactive-card-details-form/static/js/main.abee650d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6486de0a.css",
-    "static/js/main.5f5527ee.js"
+    "static/css/main.7265bb4f.css",
+    "static/js/main.abee650d.js"
   ]
 }
