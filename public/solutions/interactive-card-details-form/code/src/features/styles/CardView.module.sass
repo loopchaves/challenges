@@ -9,6 +9,9 @@
     height: 230px
     position: absolute
 
+@mixin shadow()
+    box-shadow: 0 1rem 4rem -0.5rem hsla(0, 0%, 0%, 0.2)
+
 .container
     background: url('../../img/bg-main-desktop.png') no-repeat
     background-size: cover
@@ -28,6 +31,7 @@
 
         .card_front
             @include card-layout('../../img/bg-card-front.png')
+            @include shadow()
             top: 0
             left: 0
             padding: 25px
@@ -62,6 +66,7 @@
             
         .card_back
             @include card-layout('../../img/bg-card-back.png')
+            @include shadow()
             bottom: 0
             right: 0
 
